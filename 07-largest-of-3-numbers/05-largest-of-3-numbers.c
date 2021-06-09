@@ -24,4 +24,5 @@ int main()
         max = y;
     }
     printf("Maximum number is %d", max);
+    return 0;
 }

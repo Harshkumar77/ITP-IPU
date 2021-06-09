@@ -5,4 +5,5 @@ int main()
     int x;
     scanf("%d", &x);
     printf("Character is %c", x);
+    return 0;
 }

@@ -12,4 +12,5 @@ int main()
     }
     printf("Reverse is ");
     printf("%d", rev);
+    return 0;
 }
