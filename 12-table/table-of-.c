@@ -1,7 +1,7 @@
 #include <stdio.h>
 int main()
 {
-    // program to print table of 10
+    // program to print table
     int n;
     scanf("%d", &n);
     for (int i = 1; i <= 10; i++)
