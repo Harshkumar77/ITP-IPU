@@ -1,6 +1,6 @@
 # Program to print Hello World in C.
 
-```cpp
+```c
 #include <stdio.h>
 int main()
 {
@@ -9,7 +9,7 @@ int main()
 }
 ```
 
-## Output
+## Terminal Output
 ```
 Hello world
 Harsh Kumar
