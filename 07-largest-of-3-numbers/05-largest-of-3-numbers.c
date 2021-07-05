@@ -2,7 +2,7 @@
 int main()
 {
     int x, y, z, max;
-    printf("Enter 3 numbers ");
+    printf("Enter 3 numbers : ");
     scanf("%d%d%d", &x, &y, &z);
     if (x > y)
     {

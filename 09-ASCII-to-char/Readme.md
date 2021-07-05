@@ -1,26 +1,25 @@
-# Program to find area of a circle in C
+# Program to convert ASCII value into character in C
 
 ```c
 #include <stdio.h>
 int main()
 {
-    float radius;
-    printf("Enter the radius : ");
-    scanf("%f", &radius);
-    float area = 3.14 * radius * radius;
-    printf("Area of circle is %f", area);
+    printf("Enter ASCII code : ");
+    int x;
+    scanf("%d", &x);
+    printf("Character is %c", x);
     return 0;
 }
 ```
 ### Terminal Output #1
 ```
-Enter the radius : 56
-Area of circle is 9847.040039
+Enter ASCII code : 66
+Character is B
 ```
 ### Terminal Output #2
 ```
-Enter the radius : 7.908
-Area of circle is 196.364502
+Enter ASCII code : 111
+Character is o
 ```
 
 

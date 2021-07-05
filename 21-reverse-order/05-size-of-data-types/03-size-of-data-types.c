@@ -1,6 +1,3 @@
-# Program to find size of diffrent data type in C
-
-```c
 #include <stdio.h>
 int main()
 {
@@ -14,20 +11,3 @@ int main()
     printf("Size of double is : %d\n", sizeof(d));
     return 0;
 }
-```
-### Terminal Output 
-```
-Size of int is : 4
-Size of float is : 4 
-Size of char is : 1  
-Size of double is : 8
-```
-
-
-
-
-
-
-
-
-

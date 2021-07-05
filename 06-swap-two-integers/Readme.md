@@ -1,26 +1,27 @@
-# Program to find area of a circle in C
+# Program to swap two integers without using extra variable in C
 
 ```c
 #include <stdio.h>
 int main()
 {
-    float radius;
-    printf("Enter the radius : ");
-    scanf("%f", &radius);
-    float area = 3.14 * radius * radius;
-    printf("Area of circle is %f", area);
+    int x, y;
+    scanf("%d%d", &x, &y); //
+    x = x + y;
+    y = x - y;
+    x = x - y;
+    printf("%d %d", x, y);
     return 0;
 }
 ```
 ### Terminal Output #1
 ```
-Enter the radius : 56
-Area of circle is 9847.040039
+12 23
+23 12
 ```
 ### Terminal Output #2
 ```
-Enter the radius : 7.908
-Area of circle is 196.364502
+45 90
+90 45
 ```
 
 
