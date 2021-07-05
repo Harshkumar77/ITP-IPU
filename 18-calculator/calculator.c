@@ -26,4 +26,5 @@ int main()
         printf("Invalid");
         break;
     }
+    return 0;
 }
